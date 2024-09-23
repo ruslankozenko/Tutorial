@@ -1,9 +1,7 @@
 'use strict';
 function slugify(title) {
-    let message = title.tolowerCase;
-    message = message.split(" ");
-    message = message.join("-");
-    return message;
+  let titleArr = title.toLowerCase().split(" ");
+  return titleArr.join("-");
 }
 console.log(slugify("Arrays for beginners")); 
 console.log(slugify("English for developer")); 
