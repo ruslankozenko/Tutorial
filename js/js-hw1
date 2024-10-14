@@ -1,2 +1,94 @@
 'use strict';
 
+// const friends = [
+//     { name: "Ross", online: false },
+//     { name: "Joey", online: true },
+//     { name: "Chandler", online: false },
+//     { name: "Phoebe", online: true },
+//     { name: "Monica", online: true },
+//     { name: "Rachel", online: false },
+// ];
+
+// function findByName(allFriends, name) {
+//     for (const friend of allFriends) {
+//         if (friend.name.toLowerCase() === name.toLowerCase()) {
+//             return friend;
+//       }
+        
+//     }
+//     return "Not found";
+// }
+
+// console.log(findByName(friends, "joey"));
+
+
+
+// function getOnline(allFriends) {
+//     const online = [];
+
+//     for (const friend of allFriends) {
+      
+//         if (friend.online) {
+//             online.push(friend);
+//         }
+            
+        
+//     }
+//     return online;
+// }
+
+// console.log(getOnline(friends));
+
+// const stones = [
+//     { name: "Cmaragd", price: 1300, quantity: 4 },
+//     { name: "Diamant", price: 2700, quantity: 5 },
+//     { name: "Sapfir", price: 400, quantity: 7 },
+//     { name: "Shebin", price: 200, quantity: 2 },
+// ];
+
+// function calcTotalPrice(arr, stoneName) {
+//     let sum = 0;
+
+//     for(const item of arr) {
+
+//         if(item.name === stoneName) {
+//             sum += item.price * item.quantity;
+//         }
+//     }
+
+//     return sum;
+// }
+
+// console.log(calcTotalPrice(stones, "Shebin"));
+
+
+
+// const playlist = {
+//     name: "My playlist",
+//     rating: 5,
+//     tracks: ["track-1", "track-2", "track-3"],
+//     changeName(newName) {
+//         this.name = newName;
+//     },
+//     changeRating(newRating) {
+//         this.rating = newRating;
+//     },
+//     addTrack(newTrack) {
+//         this.tracks.push(newTrack);
+//     },
+//     getTracksCount() {
+//         return this.tracks.length;
+//     }
+    
+// }
+
+
+// playlist.changeName("Ruslan playlist");
+// playlist.changeRating(7);
+// playlist.addTrack("track-4");
+
+// console.log(playlist.getTracksCount());
+
+// console.log(playlist);
+
+
