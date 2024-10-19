@@ -1,0 +1,18 @@
+'use strict';
+
+// function each(array, callback) {
+//     const newArr = [];
+
+//     for (const lalala of array) {
+//         const res = callback(lalala);
+//         newArr.push(res);
+//     }
+//     return newArr;
+// }
+
+// console.log(each([64, 25, 36, 49, 16], function (value) {
+//     return value * 2;
+// }));
+
+
+
