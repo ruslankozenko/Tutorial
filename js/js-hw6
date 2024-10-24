@@ -1,0 +1,63 @@
+
+
+// const user = {
+//      userName: "Ruslan",
+//      showThis() {
+//          console.log(this);
+//      }
+//  }
+
+//  const foo = user.showThis;
+//  console.log(foo);
+
+// foo();
+
+// foo.call(user);
+
+// const myFoo = foo.bind(user)
+// myFoo()
+
+
+//  const user = {
+//      userName: "Ruslan",
+//     showThis() {
+//          console.log(this);
+//          console.log(this.ueserName);
+//      }
+//  }
+
+//  function logger(callback) {
+//      console.log(callback);
+//      callback();
+//  }
+
+//  logger(user.showThis);
+
+
+// function chahgeColor(color) {
+//     console.log(this);
+//     this.color = color;
+// }
+
+// const hat = {
+//     color: "black"
+// }
+
+// const sweater = {
+//     color: "green"
+// }
+
+// chahgeColor.call(hat, "red");
+// console.log(hat);
+
+// chahgeColor.apply(sweater, ["blue"]);
+// console.log(sweater);
+
+// метод bind
+
+// const changeHatColor = chahgeColor.bind(hat);
+
+// changeHatColor("red");
+
+// console.log(hat);
+
