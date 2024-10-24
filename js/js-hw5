@@ -14,5 +14,24 @@
 //     return value * 2;
 // }));
 
+// function add(a, b, c) {
+//     return a + b + c;
+// }
+
+// const addArrow = (a, b, c) => {
+//     return a + b + c;
+// }
+
+// const addArrow = (...args) => {
+//     return args;
+// }
+
+// console.log(add(1, 2, 3));
+// console.log(addArrow(10, 20, 30));
+
+
+// const foo = (a, b, c) => a + b + c;
+
+// console.log(foo(10, 20, 30));
 
 
