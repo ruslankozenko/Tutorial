@@ -61,5 +61,62 @@
 
 // console.log(hat);
 
-------------------------
+// Классы
+
+// class Car {
+//     #price;
+
+//     constructor(obj = {}) {
+//         this.brand = obj.brand;
+//         this.model = obj.model;
+//         this.#price = obj.price;
+//     }
+
+//     getModel() {
+//         return this.model;
+//     }
+
+//     get price() {
+//         return this.#price;
+//     }
+
+//     set price(newPrice) {
+//        if(this.#checkType(newPrice, "number")) {
+//              this.#price = newPrice;
+//              return;
+//          }
+//          console.log("Invalid data");
+//     }
+
+//     #checkType(data, type) {
+//          if(typeof data !== type) {
+//              return false
+//          } else {
+//              return true;
+//          }
+//      }
+    
+// }
+
+// const bmw = new Car({
+//     brand: "BMW",
+//     model: "X7",
+//     price: 70000
+// });
+
+// bmw.price = 75000;
+// console.log(bmw.price);
+
+
+// const bmw1 = new Car({
+//     brand: "BMW",
+//     model: "X5"
+// });
+
+// console.log(bmw.getModel());
+// console.log(bmw1.getModel());
+
+// bmw.urdatePrice()
+// console.log(bmw);
+
 
