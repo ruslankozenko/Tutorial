@@ -1,7 +1,26 @@
 'use strict';
 
+// function getComentsByUser(id) {
+//     const baseUrl = 'https://jsonplaceholder.typicode.com';
+//     const endPoints = '/comments';
+//     const params = new URLSearchParams({
+//         postId: id,
+//     });
 
+//     const url = `${baseUrl}${endPoints}?${params}`;
 
+//     const options = {
+//         headers: {
+//             hello: 'world',
+//             api_key: '123123',
+//         },
+//     };
 
+//     fetch(url, options);
 
+// }
+
+// getComentsByUser(5);
+
+// getComentsByUser(4);
 
