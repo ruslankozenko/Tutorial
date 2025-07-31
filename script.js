@@ -14,5 +14,3 @@ document.body.appendChild(div)
 console.log(div)
 console.log(header)
 console.log(a)
-
-
