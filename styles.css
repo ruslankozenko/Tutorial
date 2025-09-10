@@ -1,0 +1,31 @@
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    cursor: pointer;
+    transition: 1s all;
+    background: blue;
+}
+
+.red {
+    background: red;
+}
+
+.orange {
+    background: orange;
+}
+
+.green {
+    background: green;
+}
+
+.circle {
+    border-radius: 50%;
+}
