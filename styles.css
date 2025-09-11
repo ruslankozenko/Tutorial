@@ -71,10 +71,22 @@ ul li:hover {
     padding: .7rem 2rem;
     border: 1px solid #ccc;
     background: #f7f7f7;
+    border-radius: 6px;
+    transition: .3s background;
+}
+
+.btn:focus {
+    outline: none;
+}
+
+.btn:hover {
+    background: #fff;
+    cursor: pointer;
 }
 
 h3 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+   font-size: 60px;
+   font-family: inherit;
+   text-align: center;
+   font-weight: normal;
 }
