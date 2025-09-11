@@ -1,5 +1,6 @@
+/* <!-- Образец №1 --> */
 
-.row {
+/* .row {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -28,4 +29,25 @@
 
 .circle {
     border-radius: 50%;
+} */
+
+/* <!-- Образец №1/-->
+
+<!-- Образец №2 --> */
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    border-radius: 6px;
+    margin-bottom: .5rem;
+    border-bottom: 1px solid #eee;
+    transition: .3s background;
+}
+
+ul li:hover {
+    background: #efefef;
 }
