@@ -31,11 +31,11 @@
     border-radius: 50%;
 } */
 
-/* <!-- Образец №1/-->
+  /* Образец №1/ */
 
-<!-- Образец №2 --> */
+  /* Образец №2 */
 
-ul {
+/* ul {
     list-style: none;
     padding: 0;
     margin: 0;
@@ -50,4 +50,31 @@ ul li {
 
 ul li:hover {
     background: #efefef;
+} */
+
+  /* Образец №2 / */
+
+  /* Образец №3 */
+
+.panel {
+    display: flex;
+    justify-content: center;
+}  
+
+.group:first-child {
+    border-right: 1px solid #ccc;
+    margin-right: 1rem;
+    padding-right: 1rem;
+}
+
+.btn {
+    padding: .7rem 2rem;
+    border: 1px solid #ccc;
+    background: #f7f7f7;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

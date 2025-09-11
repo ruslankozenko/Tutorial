@@ -39,37 +39,41 @@
 // <!-- Образец 2-->
 
 
-const container = document.querySelector('#skills')
+// const container = document.querySelector('#skills')
 
-const skills = [
-    {type: 'js', title: 'Вивчити JavaScript', done: true},
-    {type: 'git', title: 'Практикування в Git', done: true},
-    {type: 'react', title: 'Вивчити React', done: false},
-    {type: 'node', title: 'Зрозуміти NodeJS', done: false},
-    {type: 'ts', title: 'Вивчити TypeScript', done: false}
-]
+// const skills = [
+//     {type: 'js', title: 'Вивчити JavaScript', done: true},
+//     {type: 'git', title: 'Практикування в Git', done: true},
+//     {type: 'react', title: 'Вивчити React', done: false},
+//     {type: 'node', title: 'Зрозуміти NodeJS', done: false},
+//     {type: 'ts', title: 'Вивчити TypeScript', done: false}
+// ]
 
-function render() {
-    let html = ''
+// function render() {
+//     let html = ''
 
-    for ( let i = 0; i < skills.length; i++ ) {
+//     for ( let i = 0; i < skills.length; i++ ) {
 
-        html += toHTML(skills[i])
-    }
+//         html += toHTML(skills[i])
+//     }
 
-    container.innerHTML = html
-}
+//     container.innerHTML = html
+// }
 
-function toHTML(skill) {
-    const checked = skill.done ? 'checked' : ''
-    return `
-    <li data-type"skills.type">
-    <label>
-    <input type="checkbox" ${checked} />
-    ${skill.title}
-    </label>
-    </li>
-    `
-}
+// function toHTML(skill) {
+//     const checked = skill.done ? 'checked' : ''
+//     return `
+//     <li data-type"skills.type">
+//     <label>
+//     <input type="checkbox" ${checked} />
+//     ${skill.title}
+//     </label>
+//     </li>
+//     `
+// }
 
-render()
+// render()
+
+// <!-- Образец 2/-->
+
+// <!-- Образец 3-->
