@@ -56,6 +56,45 @@ ul li:hover {
 
   /* Образец №3 */
 
+/* .panel {
+    display: flex;
+    justify-content: center;
+}  
+
+.group:first-child {
+    border-right: 1px solid #ccc;
+    margin-right: 1rem;
+    padding-right: 1rem;
+}
+
+.btn {
+    padding: .7rem 2rem;
+    border: 1px solid #ccc;
+    background: #f7f7f7;
+    border-radius: 6px;
+    transition: .3s background;
+}
+
+.btn:focus {
+    outline: none;
+}
+
+.btn:hover {
+    background: #fff;
+    cursor: pointer;
+}
+
+h3 {
+   font-size: 60px;
+   font-family: inherit;
+   text-align: center;
+   font-weight: normal;
+} */
+
+/* Образец №3/ */
+
+/* Образец №4 */
+
 .panel {
     display: flex;
     justify-content: center;
@@ -90,3 +129,5 @@ h3 {
    text-align: center;
    font-weight: normal;
 }
+
+/* Образец №4/ */
