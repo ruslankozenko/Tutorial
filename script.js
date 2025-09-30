@@ -115,29 +115,54 @@
 
 //  Образец №4
 
-const panel = document.querySelector('#panel')
-const text = document.querySelector('h3')
+// const panel = document.querySelector('#panel')
+// const text = document.querySelector('h3')
 
-const styles = window.getComputedStyle(text)
-let fontSize = parseInt(styles.fontSize)
+// const styles = window.getComputedStyle(text)
+// let fontSize = parseInt(styles.fontSize)
 
-panel.addEventListener('click', event => {
-    const type = event.target.dataset.type
+// panel.addEventListener('click', event => {
+//     const type = event.target.dataset.type
 
-    if (type === 'minus') {
-        fontSize--
-        text.style.fontSize = fontSize + 'px'
-    } else if (type === 'plus') {
-        fontSize++
-        text.style.fontSize = fontSize + 'px'
-    } else if (type === 'normal') {
-        text.style.fontWeight = 'normal'
-        text.style.fontStyle = 'normal'
-    } else if (type === 'bold') {
-        text.style.fontWeight = 'bold'
-    } else if (type === 'italic') {
-        text.style.fontStyle = 'italic'
-    }
-})
+//     if (type === 'minus') {
+//         fontSize--
+//         text.style.fontSize = fontSize + 'px'
+//     } else if (type === 'plus') {
+//         fontSize++
+//         text.style.fontSize = fontSize + 'px'
+//     } else if (type === 'normal') {
+//         text.style.fontWeight = 'normal'
+//         text.style.fontStyle = 'normal'
+//     } else if (type === 'bold') {
+//         text.style.fontWeight = 'bold'
+//     } else if (type === 'italic') {
+//         text.style.fontStyle = 'italic'
+//     }
+// })
 
 //  Образец №4/
+
+//  Образец №5
+
+const form = document.querySelector('form')
+const list = document.querySelector('ul')
+
+form.addEventListener('submit', event => {
+     
+    event.preventDefault()
+
+    const text = form.title.value
+
+    if (!text) return
+
+    form.title.value = ''
+
+    // list.innerHTML += `<li>${text}</li>`
+
+    const li = document.createElement('li')
+    li.textContent = text
+
+    list.append(li)
+})
+
+//  Образец №5/

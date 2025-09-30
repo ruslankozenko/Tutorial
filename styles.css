@@ -95,7 +95,7 @@ h3 {
 
 /* Образец №4 */
 
-.panel {
+/* .panel {
     display: flex;
     justify-content: center;
 }  
@@ -128,6 +128,39 @@ h3 {
    font-family: inherit;
    text-align: center;
    font-weight: normal;
-}
+} */
 
 /* Образец №4/ */
+
+/* Образец №5 */
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+input {
+     padding: 5px 10px;
+     width: 50%;
+}
+
+.btn {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    background: #f7f7f7;
+    border-radius: 3px;
+    transition: .3s background;
+}
+
+.btn:focus {
+    outline: none;
+}
+
+.btn:hover {
+    background: #fff;
+    cursor: pointer;
+}
+
+/* Образец №5/ */
